@@ -1,0 +1,35 @@
+.upperFilter {
+  height: 50px;
+  width: 502px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #dfe5ec;
+  border-radius: 4px;
+}
+.upperFilterButton {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 167%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #4a4a4a;
+  background-color: #ffffff;
+  padding: 15px;
+  width: 168px;
+
+  &.active {
+    border-color: #2196f3;
+    color: #fff;
+    background-color: #2196f3;
+  }
+}
+.borderLeft {
+  border-radius: 4px 0 0 4px;
+  border-right: 1px solid #dfe5ec;
+}
+.borderRight {
+  border-radius: 0 4px 4px 0;
+  border-left: 1px solid #dfe5ec;
+}

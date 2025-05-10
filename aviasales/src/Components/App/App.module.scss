@@ -1,0 +1,29 @@
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.appMain {
+  display: grid;
+  grid-template-columns: [one] 232px [two] 245px [three] 245px [four];
+  grid-template-rows: [row1-start] 50px [row1-end] 245px 245px;
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-auto-flow: column;
+}
+.item1 {
+  margin: 0;
+  padding: 0;
+  grid-column-start: one;
+  grid-column-end: two;
+  grid-row-start: row1-start;
+}
+.item2 {
+  grid-column-start: two;
+  grid-column-end: four;
+  grid-row-start: row1-start;
+}
+.item3 {
+  grid-column-start: two;
+  grid-column-end: four;
+  grid-row-start: row1-end;
+}
